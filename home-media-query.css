@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+
+    .caixa, .principal, .conteúdo-benefícios, .mapa-conteúdo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .lista-benefícios, .imagem-benefícios {
+        width: 100%;
+    }
+    
+}

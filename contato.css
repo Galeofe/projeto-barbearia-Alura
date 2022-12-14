@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+header {
+    background: url('imagem/fundo-madeira.jpg') no-repeat top center fixed;
+    background-size: cover;
+    background-color: black;
+    padding: 20px 0px;
+}
+
+body {
+    background: url('imagem/fundo-madeira.jpg') no-repeat top center fixed;
+    background-size: cover;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+main {
+    min-width: 400px;
+    max-width: 1020px;
+    background: linear-gradient(#c9c9c9, #473525);
+    margin: 0 auto;
+    padding: 20px 20px 20px 100px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrão {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    background: url("imagem/bg.jpg");
+    padding: 25px 0px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.enviar {
+    color: white;
+    background-color: orange;
+    padding: 20px 0;
+    width: 40%;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.enviar:hover {
+    background-color: rgb(209, 136, 0);
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.enviar:active {
+    background-color: rgb(168, 109, 0);
+    cursor: pointer;
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+caption {
+    padding: 8px 15px;
+    border: 1px solid black;
+    background-color: #464646;
+    color: white;
+    font-weight: bold;
+}
+
+thead{
+    background-color: #555555;
+    color: black;
+    font-weight: bold;
+}
+
+th, td {
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px 15px;
+}

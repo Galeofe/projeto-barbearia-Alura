@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+* h2, h3 {
+    font-weight: bold;
+}
+
+body {
+    background: url('imagem/fundo-madeira.jpg') no-repeat top center fixed;
+    background-size: cover;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: url('imagem/fundo-madeira.jpg') no-repeat top center fixed;
+    background-size: cover;
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+img.banner {
+    margin: auto;
+    width: 100%;
+    box-shadow: 10px 5px 20px black;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1100px;
+    background: linear-gradient(#c9c9c9, #473525);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.principal {
+    padding: 30px;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.titulocentralizado {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.itens {
+    line-height: 1.5em;
+    text-align: left;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.itens::before {
+    content: "★";
+}
+
+.beneficios {
+    color: black;
+    padding: 3em 0;
+}
+
+.imagem-benefícios {
+    width: 60%;
+}
+
+.conteúdo-benefícios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-benefícios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-conteúdo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
+
+footer {
+    margin: 0 0 -1.3em 0;
+    color: white;
+    text-align: center;
+    background: url("imagem/bg.jpg");
+    padding: 25px 0px;
+}
